@@ -1,0 +1,13 @@
+<div>
+    <h1>Round {{currentRound}}</h1>
+    <div class="containerInputsNames" >       
+        <label>{{currentPlayer}}</label>
+    </div>
+    <select [(ngModel)]="selectedPlay" >
+        <option>Rock</option>
+        <option>Scissors</option>
+        <option>Paper</option>
+    </select>
+    <button (click)="saveSelectedPlay()">OK</button>
+    {{selectedPlay}}
+</div>

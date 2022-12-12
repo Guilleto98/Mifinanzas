@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100vh;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+}
+
+  .contenedor h1 {
+
+      margin-bottom: 5rem;
+
+  }
+
+
+.containerInputsNames{
+  margin-bottom: 2rem;
+}

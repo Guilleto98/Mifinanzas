@@ -1,0 +1,15 @@
+<div>
+    <h1>Enter Player's Names</h1>
+    <div class="containerInputsNames">
+        <label>Player 1</label>
+        <input  type="text" required  [(ngModel)]="playerOne" />
+    </div>
+
+    <div class="containerInputsNames">
+        <label>Player 2</label>
+        <input  type="text" required  [(ngModel)]="playerTwo"  />
+    </div>
+    <div>
+        <button (click)="save()">START</button>
+    </div>
+</div>
