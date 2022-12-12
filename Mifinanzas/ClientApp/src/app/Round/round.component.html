@@ -1,13 +1,23 @@
 <div>
+    <div class="showNamesContainer">
+        <p>Player 1: {{playerOne}}</p>
+        <p>Player 2: {{playerTwo}}</p>
+    </div>
     <h1>Round {{currentRound}}</h1>
     <div class="containerInputsNames" >       
         <label>{{currentPlayer}}</label>
     </div>
-    <select [(ngModel)]="selectedPlay" >
-        <option>Rock</option>
-        <option>Scissors</option>
-        <option>Paper</option>
-    </select>
-    <button (click)="saveSelectedPlay()">OK</button>
-    {{selectedPlay}}
+    <div class="selectPlay">
+        <select [(ngModel)]="selectedPlay" >
+            <option>Rock</option>
+            <option>Scissors</option>
+            <option>Paper</option>
+        </select>
+
+        <button (click)="saveSelectedPlay()">OK</button>
+    </div>
+    
+    <div class="showPlay">
+        <p>{{selectedPlay}}</p>
+    </div>
 </div>

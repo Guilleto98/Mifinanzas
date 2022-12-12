@@ -1,8 +1,7 @@
 <div class="contenedor">
-    <app-players-form [setPlayerOne]="setPlayerOne"  [setPlayerTwo]="setPlayerTwo" ></app-players-form>
-    Player 1> {{playerOne}}
-    Player 2> {{playerTwo}}
-    <app-round [currentPlayer]="currentPlayer" [currentRound]="currentRound" [playerOne]="playerOne" [playerTwo]="playerTwo" 
+    <app-players-form class="namesPlayersContainer" [setPlayerOne]="setPlayerOne"  [setPlayerTwo]="setPlayerTwo" ></app-players-form>
+    
+    <app-round class="selectPlayContainer" [currentPlayer]="currentPlayer" [currentRound]="currentRound" [playerOne]="playerOne" [playerTwo]="playerTwo" 
     [selectPlay]="selectPlay" [setCurrentPlayer]="setCurrentPlayer"></app-round>
 
 </div>

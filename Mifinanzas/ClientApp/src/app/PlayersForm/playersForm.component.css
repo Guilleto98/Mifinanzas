@@ -1,3 +1,32 @@
-body {
+.playersNameh1{
+    color: rgb(73, 82, 93);
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
+.containerInputsNames{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.containerInputsNames label{
+    margin-right: 2rem;
+    font-size: 20px;
+    color: rgb(73, 82, 93);
+}
+
+.btnStart{
+    border: 0px;
+    background-color: rgb(99, 111, 125);
+    color: rgb(225, 224, 224);
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.btnStart:hover{
+    background-color: rgb(134, 151, 170);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+}
